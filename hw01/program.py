@@ -7,7 +7,7 @@ def capitalize(name):
     note: this is the one we started in class
     """
     return name.upper()
-print (capitalize(Stacey Li))
+print (capitalize("stacey li"))
 2
 
 def init(name):
@@ -21,7 +21,7 @@ def init(name):
     after = breakdown[split+1:]
 
     return first + after
-print (init(Stacey Li))
+print (init("Stacey Li"))
 
 
 3
@@ -34,7 +34,7 @@ def part_pig_latin(name):
     """
     x = [1:]
     return x + st[0] + "ay"
-print (part_pig_latin (Stacey))
+print (part_pig_latin ("Stacey"))
     
 """
 4
@@ -46,7 +46,7 @@ https://codingbat.com/prob/p129981
 
 def make_out_word(out, word):
  return out[0]+out[1]+word+out[2]+out[3]
-print (make_out_word(hello, what))
+print (make_out_word("hello", "what"))
 
 5
 """
@@ -55,4 +55,4 @@ https://codingbat.com/prob/p132290
 """
 def make_tags(tag, word):
     return "<"+tag+">"+word+"</"+tag+">"
-print (make_tags(hello, hi))
+print (make_tags("hello", "hi"))

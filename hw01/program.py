@@ -32,8 +32,8 @@ def part_pig_latin(name):
     Returns: that string in fake pig latin -> move the first letter of the word to the end and add "ay"
     so: "hello" --> "ellohay"
     """
-    x = [1:]
-    return x + st[0] + "ay"
+    x = name[1:]
+    return x + name[0] + "ay"
 print (part_pig_latin ("Stacey"))
     
 """

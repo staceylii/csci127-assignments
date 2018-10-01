@@ -1,2 +1,0 @@
-Stacey Li
-Darren Liang

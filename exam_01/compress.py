@@ -1,6 +1,6 @@
 def compress_word(w):
-    vowel = 'a','e','i','o','u'
     new = []
+    vowel = 'a','e','i','o','u'
     for item in w:
         if item not in vowel:
             new.append(item)
@@ -10,6 +10,7 @@ def compress_word(w):
 print (compress_word('halloween'))
 print (compress_word('special'))
 print (compress_word('apple'))
+print (compress_word('amazing'))
 
 def sentence(line):
     listword = []

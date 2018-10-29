@@ -1,0 +1,1 @@
+We got the random numbers to appear but we struggled with the frequency and mode.

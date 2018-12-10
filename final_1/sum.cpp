@@ -5,7 +5,7 @@ int sumofsquares(int a, int b) {
   int i = 0;
   int sum = 0;
   while (i < last) {
-    sum += (a + i) * (a+i);
+    sum += (a + i) * (a + i);
     std::cout << "squared is " << (a+i)*(a+i) << "\n";
     i += 1;
   }

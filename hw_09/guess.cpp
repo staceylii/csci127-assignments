@@ -7,3 +7,4 @@ int main ()
   cin >> i;
   cout << while (i < 90)
 	    {
+

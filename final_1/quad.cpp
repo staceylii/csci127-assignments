@@ -34,17 +34,3 @@ int main()
   return 0;
 }
 
-/*
-int quadsolve (int a, int b, int c) {
-	int root;
-	int disc = (b*b) - (4*a*c);
-	if (disc >= 0) {
-		root = (disc - b) / (2*a);
-	}
-	else {
-		root = 0;
-	}
-	std::cout << "The root is " << root << std::endl;
-	return root;
-
-*/

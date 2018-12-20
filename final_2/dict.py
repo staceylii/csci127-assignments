@@ -24,6 +24,7 @@ print(addline(dict, "a scrub is a guy who thinks"))
 print(addline(dict, "i want it that way"))
 print(addline(dict, "jealousy turning saints into the sea swimming through sick lullabies"))
 print(addline(dict, "Choking on your alibis but its just the price I pay"))
+print(addline(dict, "DeStInY is CAlLiNg mE open up your eager eyEs"))
 
 
 print(spellcheck(dict, 'human'))

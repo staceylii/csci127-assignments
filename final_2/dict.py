@@ -10,7 +10,6 @@ def addline(d, line):
 
 
 def spellcheck (d,word):
-    print(word)
     lower = word.lower()
     if word in d[lower[0]]:
         return True
